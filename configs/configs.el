@@ -9,6 +9,9 @@
 (require 'ui-configs)
 (require 'keyboard-configs)
 
+;; shell
+(require 'shell-configs)
+
 ;;
 (require 'edit-configs)
 
