@@ -18,5 +18,8 @@
 ;; 
 (require 'natlang-configs)
 
+;;
+(require 'python-configs)
+
 (provide 'configs)
 
