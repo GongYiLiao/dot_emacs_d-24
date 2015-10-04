@@ -11,19 +11,19 @@
 ;; initialize package 
 (package-initialize)
 
-(setq local_lisp_dir (concat package-user-dir "/homebrew"))
-(add-to-list 'load-path local_lisp_dir)
+(setq local-lisp-dir (concat package-user-dir "/homebrew"))
+(add-to-list 'load-path local-lisp-dir)
 
 ;; powerline gong-yi theme
-(add-to-list 'load-path (concat local_lisp_dir
+(add-to-list 'load-path (concat local-lisp-dir
 				"/powerline-theme-gongyi"))
 
 ;; org gong-yi theme
-(add-to-list 'load-path (concat local_lisp_dir
+(add-to-list 'load-path (concat local-lisp-dir
                                 "/org-theme-gongyi"))
 
 ;; Ergonomic Dvorak CJ5 input 
-(add-to-list 'load-path (concat local_lisp_dir
+(add-to-list 'load-path (concat local-lisp-dir
                                 "/cj5input-dvorak-ergonomic"))
 
 (provide 'elpa-configs)
